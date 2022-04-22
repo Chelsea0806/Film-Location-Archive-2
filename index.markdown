@@ -12,7 +12,7 @@ layout: index
     <div class = "grid_cell">
       <a href = "{{ exhibit.url | relative_url }}"><img src="{{ exhibit.image-url }}" class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit.url | relative_url }}">{{ exhibit.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit.creator }}</a></p>
-      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"+"{{ licence.url }}">{{ exhibit.licence }}</a></p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">{{ exhibit.licence }}</a></p>
     </div>
   {% endfor %}
   
@@ -27,7 +27,7 @@ layout: index
     <div class = "grid_cell">
       <a href = "{{ exhibit1.url | relative_url }}"><img src="{{ exhibit1.image-url }}" class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit1.url | relative_url }}">{{ exhibit1.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit1.creator }}</a></p>
-      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"+"{{ licence.url }}">{{ exhibit1.licence }}</a></p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">{{ exhibit1.licence }}</a></p>
     </div>
   {% endfor %}
   
@@ -42,7 +42,7 @@ layout: index
     <div class = "grid_cell">
       <a href = "{{ exhibit2.url | relative_url }}"><img src="{{ exhibit2.image-url }}" class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit2.url | relative_url }}">{{ exhibit2.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit2.creator }}</a></p>
-      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"+"{{ licence.url }}">{{ exhibit2.licence }}</a></p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">{{ exhibit2.licence }}</a></p>
     </div>
   {% endfor %}
   
@@ -58,7 +58,7 @@ layout: index
     <div class = "grid_cell">
       <a href = "{{ exhibit3.url | relative_url }}"><img src="{{ exhibit3.image-url }}" class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit3.url | relative_url }}">{{ exhibit3.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit3.creator }}</a></p>
-      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"+"{{ licence.url }}">{{ exhibit3.licence }}</a></p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">{{ exhibit3.licence }}</a></p>
     </div>
   {% endfor %}
   
@@ -73,7 +73,7 @@ layout: index
     <div class = "grid_cell">
       <a href = "{{ exhibit4.url | relative_url }}"><img src="{{ exhibit4.image-url }}" class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit4.url | relative_url }}">{{ exhibit4.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit4.creator }}</a></p>
-      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"+"{{ licence.url }}">{{ exhibit4.licence }}</a></p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">{{ exhibit4.licence }}</a></p>
     </div>
   {% endfor %}
   
@@ -88,7 +88,7 @@ layout: index
     <div class = "grid_cell">
       <a href = "{{ exhibit5.url | relative_url }}"><img src="{{ exhibit5.image-url }}" class="gallery_thumb"></a>
       <p class = "caption"><a href = "{{ exhibit5.url | relative_url }}">{{ exhibit5.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit5.creator }}</a></p>
-      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"+"{{ licence.url }}">{{ exhibit5.licence }}</a></p>
+      <p><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">{{ exhibit5.licence }}</a></p>
     </div>
   {% endfor %}
   
